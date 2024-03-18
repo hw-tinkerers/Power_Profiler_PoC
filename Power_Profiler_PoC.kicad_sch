@@ -1,0 +1,233 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "faeaf365-a06a-4014-84f4-b3c47881c674")
+	(paper "A4")
+	(title_block
+		(title "Power Profiler PoC using LTC2944")
+		(date "2024-03-18")
+		(rev "v1.0")
+		(company "HW-Tinkerers")
+		(comment 1 "Email: bhandarkasrishtikr111@gmail.com")
+		(comment 2 "Author: Srishtik Bhandarkar")
+		(comment 3 "Email: vaibhavkhatri00@gmail.com")
+		(comment 4 "Author: Vaibhav Khatri")
+	)
+	(lib_symbols)
+	(sheet
+		(at 99.695 95.25)
+		(size 33.02 24.13)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "4a53d5aa-2e0f-48d1-a6df-560afd7c18c7")
+		(property "Sheetname" "LTC2944"
+			(at 109.474 123.19 0)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LTC2944.kicad_sch"
+			(at 99.695 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SENSE-_IN" input
+			(at 132.715 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62ef4873-3cba-4a60-ae38-54fa01330182")
+		)
+		(pin "SENSE+_IN" input
+			(at 132.715 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a132200-9f92-465f-b7cf-46b951df841f")
+		)
+		(pin "MCU_SDA" input
+			(at 99.695 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b9fca6e-e1c8-4c6e-a8da-c3e3905dff52")
+		)
+		(pin "MCU_SCL" input
+			(at 99.695 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88153eb2-f527-412f-bbee-44b80b97039a")
+		)
+		(pin "~{ALCC}" input
+			(at 99.695 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ebe25fd-9922-406d-b56c-92418b0a2853")
+		)
+		(instances
+			(project "Power_Profiler_PoC"
+				(path "/faeaf365-a06a-4014-84f4-b3c47881c674"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 95.25)
+		(size 31.75 24.13)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "bc79c288-b013-4c9d-99cb-9ee84d6f6ecb")
+		(property "Sheetname" "SHUNT"
+			(at 184.658 122.936 0)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Shunt.kicad_sch"
+			(at 173.99 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BATT+_IN" input
+			(at 173.99 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "359f6f24-ebda-48aa-a73b-f171e0ec57de")
+		)
+		(pin "SENSE-_OUT" output
+			(at 173.99 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41df2ffc-3216-4ae1-9c71-188db3495c68")
+		)
+		(pin "SENSE+_OUT" output
+			(at 173.99 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb0c5d3c-fbbf-4904-a0c5-74be3e729cb9")
+		)
+		(pin "BATT+_OUT" output
+			(at 173.99 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "301c9b0f-b4c1-464c-bfc1-afc4a07da988")
+		)
+		(instances
+			(project "Power_Profiler_PoC"
+				(path "/faeaf365-a06a-4014-84f4-b3c47881c674"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 48.26)
+		(size 33.02 24.13)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "da10ac35-0dab-41e2-96d9-e547f1220f96")
+		(property "Sheetname" "Ext_Connector"
+			(at 142.24 76.2 0)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ext_Connector.kicad_sch"
+			(at 137.16 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Power_Profiler_PoC"
+				(path "/faeaf365-a06a-4014-84f4-b3c47881c674"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7e679bb2-9870-4e47-af4f-d782c3537321")
+	(paper "A4")
+	(title_block
+		(title "External Connectors")
+		(date "2024-03-18")
+		(rev "v1.0")
+		(company "HW-Tinkerers")
+		(comment 1 "Email: bhandarkasrishtikr111@gmail.com")
+		(comment 2 "Author: Srishtik Bhandarkar")
+		(comment 3 "Email: vaibhavkhatri00@gmail.com")
+		(comment 4 "Author: Vaibhav Khatri")
+	)
+	(lib_symbols)
+	(hierarchical_label "MCU_SDA"
+		(shape output)
+		(at 33.02 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "24b656d7-5567-452c-8574-85bc5b6baa3b")
+	)
+	(hierarchical_label "MCU_SCL"
+		(shape output)
+		(at 33.02 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "63fe3626-f338-4b32-91f0-0856b39a0033")
+	)
+	(hierarchical_label "~{ALCC}"
+		(shape output)
+		(at 33.02 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "b8b6f9ea-49d0-4cf0-8176-1c928a9d20eb")
+	)
+)
