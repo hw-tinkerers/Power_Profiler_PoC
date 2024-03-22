@@ -510,17 +510,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Shunt_US"
-			(at 160.02 106.6799 0)
+		(property "Value" "5mE"
+			(at 158.75 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PP_PoC:R_2512_6332Metric"
 			(at 159.258 105.41 90)
 			(effects
 				(font
@@ -548,6 +547,15 @@
 			)
 		)
 		(property "PN" ""
+			(at 157.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Robu" "591923"
 			(at 157.48 105.41 0)
 			(effects
 				(font

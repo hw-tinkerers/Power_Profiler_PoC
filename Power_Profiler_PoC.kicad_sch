@@ -48,7 +48,7 @@
 			)
 		)
 		(pin "SENSE-_IN" input
-			(at 132.715 110.49 0)
+			(at 132.715 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,7 +58,7 @@
 			(uuid "62ef4873-3cba-4a60-ae38-54fa01330182")
 		)
 		(pin "SENSE+_IN" input
-			(at 132.715 113.03 0)
+			(at 132.715 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,7 +68,7 @@
 			(uuid "2a132200-9f92-465f-b7cf-46b951df841f")
 		)
 		(pin "MCU_SDA" input
-			(at 99.695 100.33 180)
+			(at 99.695 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,7 +78,7 @@
 			(uuid "1b9fca6e-e1c8-4c6e-a8da-c3e3905dff52")
 		)
 		(pin "MCU_SCL" input
-			(at 99.695 102.87 180)
+			(at 99.695 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,7 +88,7 @@
 			(uuid "88153eb2-f527-412f-bbee-44b80b97039a")
 		)
 		(pin "~{ALCC}" input
-			(at 99.695 105.41 180)
+			(at 99.695 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,6 +216,46 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "3V3" output
+			(at 137.16 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0d0b0bb-c185-492a-a90e-31de1500dbbf")
+		)
+		(pin "~{ALCC}" output
+			(at 137.16 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0bfcbda4-a8b8-4ffc-bfbb-44a1243c6758")
+		)
+		(pin "MCU_SDA" output
+			(at 137.16 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ced52c5-0849-4326-858d-e5f65ae5ea77")
+		)
+		(pin "MCU_SCL" output
+			(at 137.16 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6957116-4ce3-4ce2-818f-87c00f3b0ab9")
 		)
 		(instances
 			(project "Power_Profiler_PoC"
