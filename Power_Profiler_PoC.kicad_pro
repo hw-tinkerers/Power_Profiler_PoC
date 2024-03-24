@@ -434,12 +434,12 @@
       "LTC2944"
     ],
     [
-      "bc79c288-b013-4c9d-99cb-9ee84d6f6ecb",
-      "SHUNT"
-    ],
-    [
       "da10ac35-0dab-41e2-96d9-e547f1220f96",
       "Ext_Connector"
+    ],
+    [
+      "d9f86fa9-6d36-4cb6-97c5-800134f06b35",
+      "SHUNT"
     ]
   ],
   "text_variables": {}

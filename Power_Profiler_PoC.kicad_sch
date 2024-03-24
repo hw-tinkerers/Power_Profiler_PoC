@@ -15,9 +15,110 @@
 		(comment 4 "Author: Vaibhav Khatri")
 	)
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 137.16 57.15) (xy 77.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05738fee-b155-45e9-be6f-af2c416f4b63")
+	)
+	(wire
+		(pts
+			(xy 205.74 96.52) (xy 205.74 62.23)
+		)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(uuid "0ce54cc6-c2a8-4bf8-9717-ee0285557ca8")
+	)
+	(bus
+		(pts
+			(xy 77.47 107.95) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c71ba7-18e6-42c4-bbb6-0d7f2e2b4d8a")
+	)
+	(wire
+		(pts
+			(xy 201.93 64.77) (xy 201.93 96.52)
+		)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(uuid "5216ab19-6abb-4c7d-a428-1496bcd4d010")
+	)
+	(wire
+		(pts
+			(xy 170.18 64.77) (xy 201.93 64.77)
+		)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(uuid "5425a4a0-aefb-4884-be86-e6a9a5f86000")
+	)
+	(bus
+		(pts
+			(xy 77.47 57.15) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e3cfb2-287e-4e15-86bc-c554fcf915e5")
+	)
+	(wire
+		(pts
+			(xy 205.74 62.23) (xy 170.18 62.23)
+		)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(uuid "88fd7e47-0d5c-476d-a3b5-309359dbfdae")
+	)
+	(wire
+		(pts
+			(xy 142.24 110.49) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(uuid "b768599e-cc6a-40d7-b13b-62e969e03883")
+	)
+	(wire
+		(pts
+			(xy 142.24 105.41) (xy 173.99 105.41)
+		)
+		(stroke
+			(width 0.6)
+			(type default)
+		)
+		(uuid "ecbc56d1-4a5c-4b24-bffa-176a91e45759")
+	)
+	(label "{SDA SCL ~{ALCC} 3V3{slash}5V}"
+		(at 106.68 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdfaf434-70db-469b-9787-8e009afc258d")
+	)
 	(sheet
-		(at 99.695 95.25)
-		(size 33.02 24.13)
+		(at 101.6 96.52)
+		(size 40.64 24.13)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -27,18 +128,18 @@
 		)
 		(uuid "4a53d5aa-2e0f-48d1-a6df-560afd7c18c7")
 		(property "Sheetname" "LTC2944"
-			(at 109.474 123.19 0)
+			(at 116.078 124.968 0)
 			(effects
 				(font
 					(size 2 2)
 					(bold yes)
-					(color 0 0 255 1)
+					(color 0 0 0 1)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "LTC2944.kicad_sch"
-			(at 99.695 119.9646 0)
+			(at 101.6 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +149,7 @@
 			)
 		)
 		(pin "SENSE-_IN" input
-			(at 132.715 105.41 0)
+			(at 142.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,7 +159,7 @@
 			(uuid "62ef4873-3cba-4a60-ae38-54fa01330182")
 		)
 		(pin "SENSE+_IN" input
-			(at 132.715 107.95 0)
+			(at 142.24 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,35 +168,15 @@
 			)
 			(uuid "2a132200-9f92-465f-b7cf-46b951df841f")
 		)
-		(pin "MCU_SDA" input
-			(at 99.695 104.14 180)
+		(pin "{SDA SCL ~{ALCC} 3V3{slash}5V}" input
+			(at 101.6 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1b9fca6e-e1c8-4c6e-a8da-c3e3905dff52")
-		)
-		(pin "MCU_SCL" input
-			(at 99.695 106.68 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "88153eb2-f527-412f-bbee-44b80b97039a")
-		)
-		(pin "~{ALCC}" input
-			(at 99.695 109.22 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3ebe25fd-9922-406d-b56c-92418b0a2853")
+			(uuid "2f59f03c-3c86-49ca-b691-393a292e8e8a")
 		)
 		(instances
 			(project "Power_Profiler_PoC"
@@ -106,8 +187,8 @@
 		)
 	)
 	(sheet
-		(at 173.99 95.25)
-		(size 31.75 24.13)
+		(at 173.99 96.52)
+		(size 41.91 24.13)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -115,20 +196,20 @@
 		(fill
 			(color 0 255 0 1.0000)
 		)
-		(uuid "bc79c288-b013-4c9d-99cb-9ee84d6f6ecb")
+		(uuid "d9f86fa9-6d36-4cb6-97c5-800134f06b35")
 		(property "Sheetname" "SHUNT"
-			(at 184.658 122.936 0)
+			(at 189.484 124.968 0)
 			(effects
 				(font
 					(size 2 2)
 					(bold yes)
-					(color 0 0 255 1)
+					(color 0 0 0 1)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Shunt.kicad_sch"
-			(at 173.99 119.9646 0)
+		(property "Sheetfile" "SHUNT.kicad_sch"
+			(at 173.99 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,17 +218,7 @@
 				(hide yes)
 			)
 		)
-		(pin "BATT+_IN" input
-			(at 173.99 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "359f6f24-ebda-48aa-a73b-f171e0ec57de")
-		)
-		(pin "SENSE-_OUT" output
+		(pin "SENSE+_OUT" output
 			(at 173.99 110.49 180)
 			(effects
 				(font
@@ -155,32 +226,42 @@
 				)
 				(justify left)
 			)
-			(uuid "41df2ffc-3216-4ae1-9c71-188db3495c68")
-		)
-		(pin "SENSE+_OUT" output
-			(at 173.99 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fb0c5d3c-fbbf-4904-a0c5-74be3e729cb9")
+			(uuid "008bf314-8da8-469e-a520-1e0213a47ad0")
 		)
 		(pin "BATT+_OUT" output
-			(at 173.99 102.87 180)
+			(at 201.93 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eef6fe19-00e3-41ee-b414-af436beca0dc")
+		)
+		(pin "SENSE-_OUT" output
+			(at 173.99 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "301c9b0f-b4c1-464c-bfc1-afc4a07da988")
+			(uuid "f1e14cf4-20a3-438c-a0d8-c22829c270c6")
+		)
+		(pin "BATT+_IN" input
+			(at 205.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2f0805d-9036-44ae-b905-df5a5360bf5d")
 		)
 		(instances
 			(project "Power_Profiler_PoC"
 				(path "/faeaf365-a06a-4014-84f4-b3c47881c674"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -197,12 +278,12 @@
 		)
 		(uuid "da10ac35-0dab-41e2-96d9-e547f1220f96")
 		(property "Sheetname" "Ext_Connector"
-			(at 142.24 76.2 0)
+			(at 144.018 75.692 0)
 			(effects
 				(font
 					(size 2 2)
 					(bold yes)
-					(color 0 0 255 1)
+					(color 0 0 0 1)
 				)
 				(justify left bottom)
 			)
@@ -217,7 +298,27 @@
 				(hide yes)
 			)
 		)
-		(pin "3V3" output
+		(pin "BATT+_OUT" input
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f42ff348-78f5-4920-a1b3-9f7c40ad1a20")
+		)
+		(pin "BATT+_IN" output
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ecf61c7e-76ae-4b07-888f-a56866f12625")
+		)
+		(pin "{SDA SCL ~{ALCC} 3V3{slash}5V}" output
 			(at 137.16 57.15 180)
 			(effects
 				(font
@@ -225,37 +326,7 @@
 				)
 				(justify left)
 			)
-			(uuid "e0d0b0bb-c185-492a-a90e-31de1500dbbf")
-		)
-		(pin "~{ALCC}" output
-			(at 137.16 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0bfcbda4-a8b8-4ffc-bfbb-44a1243c6758")
-		)
-		(pin "MCU_SDA" output
-			(at 137.16 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7ced52c5-0849-4326-858d-e5f65ae5ea77")
-		)
-		(pin "MCU_SCL" output
-			(at 137.16 64.77 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f6957116-4ce3-4ce2-818f-87c00f3b0ab9")
+			(uuid "29cdb27c-1f0c-4a28-9e1b-37e697d16280")
 		)
 		(instances
 			(project "Power_Profiler_PoC"
